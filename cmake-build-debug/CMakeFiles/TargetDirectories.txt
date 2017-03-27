@@ -1,0 +1,7 @@
+/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/client_src.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/libft/CMakeFiles/edit_cache.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/libft/CMakeFiles/rebuild_cache.dir
+/Users/nle-bret/project/ft_p/cmake-build-debug/libft/CMakeFiles/ft.dir

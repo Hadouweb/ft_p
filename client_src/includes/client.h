@@ -8,7 +8,13 @@
 # include <unistd.h>
 # include <netdb.h>
 # include <stdio.h>
+# include "libft.h"
 
+
+typedef struct 		s_client
+{
+
+}					t_client;
 
 
 #endif

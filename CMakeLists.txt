@@ -3,6 +3,8 @@ project(ft_p)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+add_subdirectory(libft)
+include_directories(libft/includes)
 include_directories(client_src)
 include_directories(client_src/includes)
 include_directories(server_src)
