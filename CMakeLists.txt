@@ -17,6 +17,10 @@ set(HEADER_CLIENT client_src/includes/client.h)
 
 set(SRCS_SERVER
         server_src/srcs/main.c
+        server_src/srcs/error.c
+        server_src/srcs/util.c
+        server_src/srcs/config.c
+        server_src/srcs/event.c
     )
 set(HEADER_SERVER server_src/includes/server.h)
 

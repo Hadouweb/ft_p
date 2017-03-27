@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/nle-bret/project/ft_p/server_src/srcs/config.c" "/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir/server_src/srcs/config.c.o"
+  "/Users/nle-bret/project/ft_p/server_src/srcs/error.c" "/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir/server_src/srcs/error.c.o"
+  "/Users/nle-bret/project/ft_p/server_src/srcs/event.c" "/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir/server_src/srcs/event.c.o"
   "/Users/nle-bret/project/ft_p/server_src/srcs/main.c" "/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir/server_src/srcs/main.c.o"
+  "/Users/nle-bret/project/ft_p/server_src/srcs/util.c" "/Users/nle-bret/project/ft_p/cmake-build-debug/CMakeFiles/server_src.dir/server_src/srcs/util.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

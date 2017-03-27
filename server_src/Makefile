@@ -12,6 +12,10 @@ LIB = -L$(LIBFT_PATH) -lft
 LIBNAME = $(LIBFT_PATH)/libft.a
 
 SRC =   $(SRCS_PATH)/main.c\
+        $(SRCS_PATH)/error.c\
+        $(SRCS_PATH)/util.c\
+        $(SRCS_PATH)/config.c\
+        $(SRCS_PATH)/event.c\
 
 OBJ = $(SRC:.c=.o)
 

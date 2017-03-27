@@ -11,10 +11,12 @@
 # include "libft.h"
 
 
-typedef struct 		s_client
+typedef struct 				s_client
 {
-
-}					t_client;
+	int 					socket;
+	struct hostent			*hostname;
+	struct sockaddr_in		config;
+}							t_client;
 
 
 #endif

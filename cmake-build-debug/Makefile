@@ -176,6 +176,87 @@ client_src/srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/client_src.dir/build.make CMakeFiles/client_src.dir/client_src/srcs/main.c.s
 .PHONY : client_src/srcs/main.c.s
 
+server_src/srcs/config.o: server_src/srcs/config.c.o
+
+.PHONY : server_src/srcs/config.o
+
+# target to build an object file
+server_src/srcs/config.c.o:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/config.c.o
+.PHONY : server_src/srcs/config.c.o
+
+server_src/srcs/config.i: server_src/srcs/config.c.i
+
+.PHONY : server_src/srcs/config.i
+
+# target to preprocess a source file
+server_src/srcs/config.c.i:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/config.c.i
+.PHONY : server_src/srcs/config.c.i
+
+server_src/srcs/config.s: server_src/srcs/config.c.s
+
+.PHONY : server_src/srcs/config.s
+
+# target to generate assembly for a file
+server_src/srcs/config.c.s:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/config.c.s
+.PHONY : server_src/srcs/config.c.s
+
+server_src/srcs/error.o: server_src/srcs/error.c.o
+
+.PHONY : server_src/srcs/error.o
+
+# target to build an object file
+server_src/srcs/error.c.o:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/error.c.o
+.PHONY : server_src/srcs/error.c.o
+
+server_src/srcs/error.i: server_src/srcs/error.c.i
+
+.PHONY : server_src/srcs/error.i
+
+# target to preprocess a source file
+server_src/srcs/error.c.i:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/error.c.i
+.PHONY : server_src/srcs/error.c.i
+
+server_src/srcs/error.s: server_src/srcs/error.c.s
+
+.PHONY : server_src/srcs/error.s
+
+# target to generate assembly for a file
+server_src/srcs/error.c.s:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/error.c.s
+.PHONY : server_src/srcs/error.c.s
+
+server_src/srcs/event.o: server_src/srcs/event.c.o
+
+.PHONY : server_src/srcs/event.o
+
+# target to build an object file
+server_src/srcs/event.c.o:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/event.c.o
+.PHONY : server_src/srcs/event.c.o
+
+server_src/srcs/event.i: server_src/srcs/event.c.i
+
+.PHONY : server_src/srcs/event.i
+
+# target to preprocess a source file
+server_src/srcs/event.c.i:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/event.c.i
+.PHONY : server_src/srcs/event.c.i
+
+server_src/srcs/event.s: server_src/srcs/event.c.s
+
+.PHONY : server_src/srcs/event.s
+
+# target to generate assembly for a file
+server_src/srcs/event.c.s:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/event.c.s
+.PHONY : server_src/srcs/event.c.s
+
 server_src/srcs/main.o: server_src/srcs/main.c.o
 
 .PHONY : server_src/srcs/main.o
@@ -203,6 +284,33 @@ server_src/srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/main.c.s
 .PHONY : server_src/srcs/main.c.s
 
+server_src/srcs/util.o: server_src/srcs/util.c.o
+
+.PHONY : server_src/srcs/util.o
+
+# target to build an object file
+server_src/srcs/util.c.o:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/util.c.o
+.PHONY : server_src/srcs/util.c.o
+
+server_src/srcs/util.i: server_src/srcs/util.c.i
+
+.PHONY : server_src/srcs/util.i
+
+# target to preprocess a source file
+server_src/srcs/util.c.i:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/util.c.i
+.PHONY : server_src/srcs/util.c.i
+
+server_src/srcs/util.s: server_src/srcs/util.c.s
+
+.PHONY : server_src/srcs/util.s
+
+# target to generate assembly for a file
+server_src/srcs/util.c.s:
+	$(MAKE) -f CMakeFiles/server_src.dir/build.make CMakeFiles/server_src.dir/server_src/srcs/util.c.s
+.PHONY : server_src/srcs/util.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,9 +325,21 @@ help:
 	@echo "... client_src/srcs/main.o"
 	@echo "... client_src/srcs/main.i"
 	@echo "... client_src/srcs/main.s"
+	@echo "... server_src/srcs/config.o"
+	@echo "... server_src/srcs/config.i"
+	@echo "... server_src/srcs/config.s"
+	@echo "... server_src/srcs/error.o"
+	@echo "... server_src/srcs/error.i"
+	@echo "... server_src/srcs/error.s"
+	@echo "... server_src/srcs/event.o"
+	@echo "... server_src/srcs/event.i"
+	@echo "... server_src/srcs/event.s"
 	@echo "... server_src/srcs/main.o"
 	@echo "... server_src/srcs/main.i"
 	@echo "... server_src/srcs/main.s"
+	@echo "... server_src/srcs/util.o"
+	@echo "... server_src/srcs/util.i"
+	@echo "... server_src/srcs/util.s"
 .PHONY : help
 
 
