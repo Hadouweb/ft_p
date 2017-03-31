@@ -16,6 +16,7 @@ SRC =   $(SRCS_PATH)/main.c\
         $(SRCS_PATH)/util.c\
         $(SRCS_PATH)/config.c\
         $(SRCS_PATH)/event.c\
+        $(SRCS_PATH)/send.c\
 
 OBJ = $(SRC:.c=.o)
 

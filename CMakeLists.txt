@@ -21,6 +21,7 @@ set(SRCS_SERVER
         server_src/srcs/util.c
         server_src/srcs/config.c
         server_src/srcs/event.c
+        server_src/srcs/send.c
     )
 set(HEADER_SERVER server_src/includes/server.h)
 

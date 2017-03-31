@@ -24,6 +24,7 @@ typedef struct 				s_server
 	struct sockaddr_in		config;
 	t_list					client_list;
 	pid_t 					pid_event;
+	int 					status;
 }							t_server;
 
 
@@ -37,14 +38,20 @@ void						set_server_config(t_server *server, uint16_t port);
 */
 void						event_connection(t_server *server);
 void 						event_message(t_server *server, t_client *client);
+void						event_close(t_server *server, t_client *client);
 
-void	handle_client(t_server *server, void(*f)(t_server *, t_client *));
-
+/*
+** ********************************* send.c ***********************************
+*/
+void						send_to_client(t_server *server, t_client *client,
+								char *msg);
 /*
 ** ********************************* util.c ***********************************
 */
 void						add_client(pid_t pid, t_server *server, int socket,
 								struct sockaddr_in config);
+void						handle_client(t_server *server,
+								void(*f)(t_server *, t_client *));
 
 /*
 ** ********************************* error.c **********************************
